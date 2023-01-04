@@ -7,19 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About this app
-Aplikasi ini dibuat menggunakan Laravel dan Tailwindcss. Untuk menjalankan aplikasi ini, pastikan anda menggunakan yarn dan jalankan dahulu perintah, untuk istallasi tailwind:
- ```sh
-   yarn add -D tailwindcss postcss autoprefixer
-   ```
- Jalankan perintah di bawah untuk mengaktifkan aplikasi laravel:
-  ```sh
-   laravel artisan serve
-   ```
-  Terakhir, Jalankan vite dengan perintah:
-   ```sh
-   yarn dev
-   ```
+## Instalasi
+```sh
+git clone https://github.com/muhammaderlangga99/cekberatbadan.git
+cd cekberatbadan
+composer update
+yarn add
+cp .env.example .env
+php artisan key:generate
+```
+START THE SERVER
+```sh
+yarn dev
+php artisan serve
+```
 
 ## License
 
